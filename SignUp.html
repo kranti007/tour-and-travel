@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        .container{
+            background-color: #ccc;
+            width: 100%;
+            height: 100vh;
+            margin: 0%;
+            padding: 0%;
+            position: relative;
+
+
+        }
+
+        .box1 {
+            position: absolute;
+            display: flex;
+            background-color: white;
+            border-radius: 30px;
+            width: 800px;
+            height: 600px;
+            margin:70px;
+            margin-left:22%;
+            border: 2px solid #fabd02;
+
+        }
+
+        .active {
+            margin: 25px;
+        }
+
+        .active h2 {
+            font-size: 30px;
+            margin: 10px;
+
+        }
+
+        .active p {
+            font-size: 15px;
+            color: grey;
+            margin: 15px;
+            padding: 15px 0px 5px 0px;
+        }
+
+        .active input {
+            margin: 15px;
+            padding: 12px;
+            border-radius: 7px;
+            width: 250px;
+            font-size: 15px;
+            background-color: #ccc;
+            border: 1px solid #ccc;
+        }
+
+        .image_container img {
+            width: 390px;
+            height: 600px;
+            border-radius: 20px;
+            margin-left: 12%;
+        }
+
+        .btn{
+            width:85%;
+            background-color:#fabd02;
+            padding:10px;
+            text-align: center;
+            border-radius:7px;
+            border:2px solid #fabd02;
+            margin:15px;
+        }
+        .btn a{
+            
+            text-decoration: none;
+            font-size:18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="box1">
+            <div class="active">
+
+                <h2>Sign Up</h2>
+
+                <p>already a member<a href="./login.html">Sign in</a>
+                </p>
+                <form>
+                    <div class="sub_form">
+                        <input type="email" placeholder="Email or Phone"><br>
+                        <input type="password" placeholder="Password"><br>
+                        <input type="password" placeholder="Confirm Password"><br>
+                        
+                        <!--<input type="checkbox" id="service"name="service" value="i agree to the terms and service">
+                    <label for="service">I agree to the terms and services</label><br>-->
+                    </div>
+                    <div class="btn">
+                        <a href="./login.html" >Sign Up</a>
+                    </div>
+                </form>
+            </div>
+            <div class="image_container">
+                <img src="./images/image 3.jpg">
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
